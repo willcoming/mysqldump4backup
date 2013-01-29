@@ -7,7 +7,7 @@
 # TODO: if a database no longer exists, remove the dump file.
 # TODO: if a diff bigger than the dump, replace the dump with the new one and write a new chksum.
 
-. ./CxMySQL.cfg
+. /etc/CxMySQL.cfg
 
 if [ ! -d ${dumpdir} ]; then
     mkdir -pv ${dumpdir}

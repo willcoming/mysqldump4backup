@@ -1,0 +1,5 @@
+#!/bin/bash
+dumpdir="backup path"
+dbuser="root"
+dbpass="yoursecretpassword"
+my="mysql -u ${dbuser} -p${dbpass} "
